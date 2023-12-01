@@ -6,8 +6,11 @@
 
 const studentList = ["Johnson", "Christina", "Michael", "Lina", "Larry", "Michelle", "Bob", "Wilson"]
 
-function printStudentNames(){
+function printStudentNames() {
     // Add code here
+    studentList.forEach(student => {
+        console.log(student);
+    })
 }
 
 printStudentNames();
